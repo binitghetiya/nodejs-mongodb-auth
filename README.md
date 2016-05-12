@@ -10,10 +10,10 @@ Please go to folder where you have clone this repo, and run below commands
 - bower install
 
 #start server
-once installation is complete 
--run mongodb server using "mongod" command
--run "node app.js" comment in another cmd
+Once installation is complete 
+- run mongodb server using "mongod" command
+- run "node app.js" comment in another cmd
 
 and you are good to go.If have any query please contact
--binit@outlook.in
--http://binit.co.in
+- binit@outlook.in
+- http://binit.co.in
