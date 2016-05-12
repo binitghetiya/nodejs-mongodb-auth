@@ -1,5 +1,5 @@
 # nodejs-mongodb-auth-app
-Authentication app with NodeJs and MongoDB with csrf (cross site request forgery) and bcrypt(password encryption).
+Authentication app with NodeJs and MongoDB with Jade templating engine csrf (cross site request forgery) and bcrypt(password encryption).
 
 #required
 NodeJS and MongoDB need to be installed on your PC or laptop.
