@@ -1,0 +1,54 @@
+extends base
+
+block vars
+  - var title = 'Register'
+
+block body
+  div.row
+    div.col-md-2
+    div.col-md-7
+      center
+        h3 Register Form
+        br
+    div.col-md-3
+
+
+  div.container
+    if error
+      div.form-group.row
+        div.col-md-2
+        div.col-md-8.alert.alert-danger
+          p ERROR: #{error}
+    if message
+      div.form-group.row
+        div.col-md-2
+        div.col-md-8.alert.alert-success
+          p Message: #{message}
+    form(method="post",class="form-group")
+      input(type='hidden' name='_csrf' value=csrfToken)
+      div.col-md-2
+      div.col-md-8
+        div.form-group.row
+          label.col-sm-3.form-control-label First Name
+          div.col-sm-9
+            input(type="firstName", name="firstName", required=true, placeholder='First Name', class="form-control")
+        br
+        div.form-group.row
+          label.col-sm-3.form-control-label Last Name
+          div.col-sm-9
+            input(type="lastName", name="lastName", required=true, placeholder='Last Name', class="form-control")
+        br
+        div.form-group.row
+          label.col-sm-3.form-control-label Email
+          div.col-sm-9
+            input(type="email", name="email", required=true, placeholder='Email', class="form-control")
+        br
+        div.form-group.row
+          label.col-sm-3.form-control-label Last Name
+          div.col-sm-9
+            input(type="password", name="password", required=true, placeholder='Password', class="form-control")
+        br
+        div.form-group.row
+          div.col-sm-offset-3.col-sm-9
+            button(type="submit",class="btn btn-primary") Register
+      div.col-md-2

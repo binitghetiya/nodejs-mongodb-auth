@@ -1,0 +1,14 @@
+extends base
+
+block vars
+  - var title = 'home';
+
+block body
+  div.container
+    if message
+      div.form-group.row
+        div.col-md-2
+        div.col-md-8.alert.alert-success
+          p #{message}
+    h1 Home
+    p Welcome to home page Please <a href='/login'>Login</a> or <a href='/register'>Register</a>.

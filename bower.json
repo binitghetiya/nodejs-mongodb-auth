@@ -1,0 +1,24 @@
+{
+  "name": "NodeJSMongoDBStart",
+  "description": "Learning NodeJS and MongoDB Authencation app",
+  "main": "app.js",
+  "authors": [
+    "Binit Ghetiya"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "NodeJS",
+    "MongoDB"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
