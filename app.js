@@ -7,7 +7,7 @@ var csrf = require('csurf'); //security for cross site request forjery
 var bcrypt = require('bcryptjs');
 
 //connect to mongoose db:nodeapp
-mongoose.connect('mongodb://localhost/nodeapp');
+mongoose.connect('mongodb://binitdev:Binit.123@ds015194.mlab.com:15194/nodeapp');
 
 //setup template engine and view source preety
 app.set('view engine', 'jade');
