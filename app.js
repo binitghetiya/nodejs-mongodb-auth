@@ -122,7 +122,7 @@ app.get('/dashboard', requireLogin, function(req, res) {
     res.render('dashboard.jade');
 });
 
-/* started app on localhost:3333 port*/
-app.listen(3333, function() {
-    console.log('Example app listening on port 3333!');
+/* started app on localhost:8000 port*/
+app.listen(8000, function() {
+    console.log('Example app listening on port 8000!');
 });
